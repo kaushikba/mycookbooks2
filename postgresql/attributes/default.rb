@@ -273,7 +273,7 @@ default['postgresql']['pgdg']['repo_rpm_url'] = {
       }
     },
     "amazon" => {
-      "6" => {
+      "2014" => {
         "i386" => "http://yum.postgresql.org/9.1/redhat/rhel-6-i386/pgdg-redhat91-9.1-5.noarch.rpm",
         "x86_64" => "http://yum.postgresql.org/9.1/redhat/rhel-6-x86_64/pgdg-redhat91-9.1-5.noarch.rpm"
       },
