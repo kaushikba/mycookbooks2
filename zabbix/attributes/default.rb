@@ -11,7 +11,7 @@ default['zabbix']['agent']['hostname'] = node['fqdn']
 default['zabbix']['agent']['install_method'] = "source"
 default['zabbix']['agent']['include_dir'] = "/opt/zabbix/agent_include"
 
-default['zabbix']['server']['install'] = false
+default['zabbix']['server']['install'] = true
 default['zabbix']['server']['version'] = "2.0.3"
 default['zabbix']['server']['branch'] = "ZABBIX%20Latest%20Stable"
 default['zabbix']['server']['dbname'] = "zabbix"
@@ -33,7 +33,7 @@ default['zabbix']['server']['log_level'] = 3
 default['zabbix']['server']['housekeeping_frequency'] = "1"
 default['zabbix']['server']['max_housekeeper_delete'] = "100000"
 
-default['zabbix']['web']['install'] = false
+default['zabbix']['web']['install'] = true
 default['zabbix']['web']['fqdn'] = nil
 default['zabbix']['web']['aliases'] = ["zabbix"]
 
