@@ -17,7 +17,7 @@ default['zabbix']['server']['branch'] = "ZABBIX%20Latest%20Stable"
 default['zabbix']['server']['dbname'] = "zabbix"
 default['zabbix']['server']['dbuser'] = "zabbix"
 default['zabbix']['server']['dbhost'] = "localhost"
-default['zabbix']['server']['dbpassword'] = nil
+default['zabbix']['server']['dbpassword'] = redhat
 default['zabbix']['server']['dbport'] = "3306"
 default['zabbix']['server']['install_method'] = "source"
 default['zabbix']['server']['include_dir'] = "/opt/zabbix/server_include"
@@ -34,7 +34,7 @@ default['zabbix']['server']['housekeeping_frequency'] = "1"
 default['zabbix']['server']['max_housekeeper_delete'] = "100000"
 
 default['zabbix']['web']['install'] = true
-default['zabbix']['web']['fqdn'] = nil
+default['zabbix']['web']['fqdn'] = localhost
 default['zabbix']['web']['aliases'] = ["zabbix"]
 
 default['zabbix']['install_dir'] = "/opt/zabbix"
