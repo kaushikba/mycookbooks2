@@ -29,6 +29,6 @@ end
 
 node['postgresql']['client']['packages'].each do |pg_pack|
 
-#  package pg_pack
+package pg_pack
 
 end
