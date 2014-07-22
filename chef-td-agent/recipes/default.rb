@@ -59,10 +59,12 @@ if node['td_agent']['includes']
   end
 end
 
-package "td-agent" do
-  action :upgrade
-  version node[:td_agent][:version] if node[:td_agent][:pinning_version]
-end
+#Kaushik
+#package "td-agent" do
+#  action :upgrade
+#  version node[:td_agent][:version] if node[:td_agent][:pinning_version]
+#end
+#Kaushik
 
 node[:td_agent][:plugins].each do |plugin|
   if plugin.is_a?(Hash)
