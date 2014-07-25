@@ -3,9 +3,9 @@ targetFile = "http://repo.zabbix.com/zabbix/2.2/rhel/6/x86_64/zabbix-release-2.2
 
 
 # Install rpm
-rpm_package "new-relic server agent" do
-	source targetFile
-end
+#rpm_package "new-relic server agent" do
+#	source targetFile
+#end
 
 # Start install newrelic server agent
 yum_package "zabbix zabbix-agent" do
